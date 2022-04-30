@@ -1,10 +1,22 @@
 package com.laba4;
 
 public class Devision {
-    public int id;
-    public String name;
-    public String sex;
-    public Devision devision;
-    public int salary;
-    public String birthDate;
+    private int id;
+    private String name;
+
+
+    public void setId(int newId){
+        id = newId;
+    }
+    public int getId(){
+        return id;
+    }
+
+    public void setName(String newName){
+        name = newName;
+    }
+    public String getName(){
+        return name;
+    }
+
 }
